@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html lang="en"> 
+    <head>
+		<meta charset="utf-8">
+        <title>El Grito Restaurant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lte IE 9]>
+            <script src="http://css3-mediaqueries-    js.googlecode.com/svn/trunk/css3-    mediaqueries.js"></script>
+        <![endif]-->
+		       <link rel="stylesheet" href="styletwo.css">
+	<script>
+			function cFunction()
+			{
+				confirm("We have got the message, Thank you very much!");
+			}
+	</script>
+    </head>
+    <body>
+	<img src="logo.png" alt= "logo" class="logo" >
+        <ul>
+ 			<li><a href="../index.html">HOME</a></li>
+			<li><a href="../menu/menu.html">MENU</a></li>
+			<li><a href="../GiftCard/GiftCard.html">GIFT CARD</a></li>
+			<li><a href="../Findus/Findus.html">CONECT US</a></li>
+			<li><a href="../gallery/gallery.html">GALLERY</a></li>
+
+        </ul>
+		<div class='button1'>
+			<a href="../Reservation/reservation.html"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserve now</button></a>
+		</div>
+	
+	<h2><br/>Conect us !<br>Check our social media to discover the last news !<br/><br/><br/><br/><br/>You can find us right here!<br/><br/><br/><br><br/><br><br><br><br><br><br>For more information send us a message</h2>
+
+	<div class="one" >
+		<a href="https://www.facebook.com/pages/category/Mexican-Restaurant/El-Grito-Mexican-Taqueria-1085764561452303/"></a>
+		<img src="Facebook.png" alt= "facebook" class="img1">
+	</div>
+	
+	<div class="two">
+		<a href="https://www.instagram.com/el_grito_mexican/?hl=en"></a>
+        <img src="Instagram.png" alt="instagram" class="img2">
+	</div>
+	<div class="three">	 
+		<a href="https://www.tripadvisor.ie/Restaurant_Review-g186605-d8530475-Reviews-El_Grito-Dublin_County_Dublin.html"></a>
+        <img src="Trip.png" alt="tripadvisor" class="img3">
+	</div>
+
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+	<div class="row">
+    <div class="col-25">
+      <label>Name (required)</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="name" name="Your Name" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Email (required)</label></div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your Email"></div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Subject</label>
+    </div>
+    <div class="col-75">
+      <select id="Subject" name="Subject">
+        <option value="Cattering service">Cattering service</option>
+        <option value="Book for big groups">Book for a large group</option>
+        <option value="other">Others</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Message</label>
+    </div>
+    <div class="col-75">
+      <textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row1">
+    <button type="button" onclick="cFunction()">Submit</button>
+  </div>
+  </form>
+</div>
+
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14735.579020312302!2d-6.256125592090138!3d53.356715956657084!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe000f178dd566638!2sEl%20Grito%20Mexican%20Taqueria!5e0!3m2!1sen!2sie!4v1575473967655!5m2!1sen!2sie" width="500" height="280"   ></iframe>
+	</div>
+
+ 
+	<div class="tooltip">Address
+		<span class="tooltiptext">20 Mountjoy Square East, Dublin 1</span>
+	</div>
+
+	<div class="totip">Call us
+		<span class="totiptext"> (01) 548 6410</span>
+	</div>
+
+  
+	<footer>
+            <p>Copyright &#169; El Grito Restaurant</p>
+    </footer>
+		
+ </body>

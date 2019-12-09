@@ -1,0 +1,140 @@
+body{
+    background-color: #E05915;
+    background-image: url(11.jpg);
+	background-size:100% 800px;
+    background-repeat: no-repeat;
+	}
+.logo{
+	height:200px;
+	width:225px;
+	display:block; 
+	margin:auto;
+	}
+.button1{
+  position: absolute;
+  font-size:20px;
+  right: 5%;
+  top: 2%;
+	}
+ul {
+	list-style-type: none;
+	float:right;
+	position: absolute;
+	left: 24%;
+	top: 30%;
+	}
+li {float: left;}
+li a{
+	font-size:20px;
+	font-family: "Tahoma", Times, serif;
+	letter-spacing:1px;
+	display: block;
+	color: #F7EEE0;
+	padding: 14px 16px;
+	margin-top:20px;
+	text-decoration: none;}
+li a:hover{background-color: #A82328;}
+img{width:455px;height:248px;}
+#title{
+	position: absolute;
+	left: 41%;
+	top: 2%;
+	margin: auto;
+	font-size:60px;
+	color: black;
+	font-family: "Broadway", Times, serif;
+	}
+div.menu{
+	background-color: #E05915;
+	height:1600px;
+	width:1200px;
+	position: absolute;
+	left: 10%;
+	top: 44%;
+	}
+	
+footer{
+	font-family: "Tahoma", Times, serif;
+    width:100%;
+    height:28px;
+    margin-top:1150px;
+    background-color:#CF4D12;
+    font-size:12px;
+    text-align:center;
+    color:#F7EEE0;
+}
+h2{
+	margin: auto;
+	font-size:60px;
+	color: black;
+	font-family: "Broadway", Times, serif;
+	text-align:center;
+	}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E05915;
+  padding: 20px;
+  font-family: Arial;
+}
+.menu {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+.show {
+  display: block;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}

@@ -1,0 +1,158 @@
+body{
+    background-image: url('6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+li {float: left;
+	padding-left:9.5%;
+	float:left;
+	}
+li a {
+	font-family: "Tahoma", Times;
+	font-size:21px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    }
+li a:hover {background-color: #A82328;}
+.logo{
+	height:200px;
+	width:225px;
+	display:block; 
+	margin:auto;
+	}
+.button1{
+  position: absolute;
+  font-size:20px;
+  right: 5%;
+  top: 2%;
+	}
+	
+img{width:175px;height:248px;}
+
+div.pic1 {
+	position: absolute;
+	left: 3%;
+	top: 48%;
+	border: 12px double #F7EEE0;
+	}
+div.pic2 {
+	position: absolute;
+	left: 20%;
+	top: 44%;
+	border: 12px double #F7EEE0;
+	}
+div.pic3 {
+	position: absolute;
+	left: 37%;
+	top: 48%;
+	border: 12px double #F7EEE0;
+	}
+div.pic4 {
+	position: absolute;
+	left: 54%;
+	top: 44%;
+	border: 12px double #F7EEE0;
+	}
+div.pic5 {
+	position: absolute;
+	left: 71%;
+	top: 48%;
+	border: 12px double #F7EEE0;
+	}
+div.pic6 {
+	position: absolute;
+	left: 88%;
+	top: 44%;
+	border: 12px double #F7EEE0;
+	}
+div.pic7 {
+	position: absolute;
+	left: 3%;
+	top: 96%;
+	border: 12px double #F7EEE0;
+	}
+div.pic8 {
+	position: absolute;
+	left: 20%;
+	top: 90%;
+	border: 12px double #F7EEE0;
+	}
+div.pic9 {
+	position: absolute;
+	left: 37%;
+	top: 96%;
+	border: 12px double #F7EEE0;
+	}
+div.pic10 {
+	position: absolute;
+	left: 54%;
+	top: 90%;
+	border: 12px double #F7EEE0;
+	}
+div.pic11 {
+	position: absolute;
+	left: 71%;
+	top: 96%;
+	border: 12px double #F7EEE0;
+	}
+div.pic12 {
+	position: absolute;
+	left: 88%;
+	top: 90%;
+	border: 12px double #F7EEE0;
+	}
+div.pic13 {
+	position: absolute;
+	left: 3%;
+	top: 144%;
+	border: 12px double #F7EEE0;
+	}
+div.pic14 {
+	position: absolute;
+	left: 20%;
+	top: 138%;
+	border: 12px double #F7EEE0;
+	}
+div.pic15 {
+	position: absolute;
+	left: 37%;
+	top: 144%;
+	border: 12px double #F7EEE0;
+	}
+div.pic16 {
+	position: absolute;
+	left: 54%;
+	top: 138%;
+	border: 12px double #F7EEE0;
+	}
+div.pic17 {
+	position: absolute;
+	left: 71%;
+	top: 144%;
+	border: 12px double #F7EEE0;
+	}
+div.pic18 {
+	position: absolute;
+	left: 88%;
+	top: 138%;
+	border: 12px double #F7EEE0;
+	}
+
+footer{
+	width:100%;
+	height:28px;
+	font-family: "Tahoma", Times, serif;
+	margin-top:1000px;
+	background-color:#A82328;
+	font-size:11px;
+	text-align:center;
+	color:#3E3C41;
+}
+
+
+
+

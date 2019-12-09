@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+		<title>El Grito Restaurant</title>
+		<meta name="viewport"content="width=device-width, initial-scale=1.0" />
+		<!--[if lte IE 9]> 
+			<script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="mystyle3.css">
+	</head>
+	
+	<body>
+		<img src="logo.png" class="logo" >
+		<ul>
+			<li><a href="../index.html">HOME</a></li>
+			<li><a href="../menu/menu.html">MENU</a></li>
+			<li><a href="../GiftCard/GiftCard.html">GIFT CARD</a></li>
+			<li><a href="../Findus/Findus.html">CONECT US</a></li>
+			<li><a href="../gallery/gallery.html">GALLERY</a></li>
+		</ul>
+		<div class='button1'>
+			<a href="../Reservation/reservation.html"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserve now</button></a>
+		</div>
+		<div class='menu'>
+			
+	
+<h2>Menu</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('meal')"> Meal</button>
+  <button class="btn" onclick="filterSelection('drinks')"> Drinks</button>
+</div>
+
+
+<div class="row">
+  <div class="column meal">
+    <div class="content">
+      <img src="tacos.jpg" alt="Tacos" style="width:100%">
+      <h4>Tacos</h4>
+      <p>Delicious soft tortilla with pastor filling and onion and coriander</p>
+    </div>
+  </div>
+  <div class="column meal">
+    <div class="content">
+    <img src="volcan.jpg" alt="volcan" style="width:100%">
+      <h4>Volcan</h4>
+      <p>Hard Tortilla with a filling selection and cheese on the top</p>
+    </div>
+  </div>
+  <div class="column meal">
+    <div class="content">
+    <img src="gringa.jpg" alt="Gringa" style="width:100%">
+      <h4>Gringa</h4>
+      <p>Flour tortilla with cheese and a filling selection with onion and coriander</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="torta.jpg" alt="Torta" style="width:100%">
+      <h4>Torta</h4>
+      <p>Delicious bread with beans, guacamole, cheese and onion and coriander.</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="alambre.jpg" alt="Alambre" style="width:100%">
+      <h4>Alambre</h4>
+      <p>Mix of sweet pepper with onion a filling selection with cheese and 7 corn tortillas</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="papa.jpg" alt="Papa al pastor" style="width:100%">
+      <h4>Potatoe al Pastor</h4>
+      <p>Mash potatoe with a filling selection cheese and 7 corn tortillas</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="burrito.jpg" alt="Burrito" style="width:100%">
+      <h4>Burrito</h4>
+      <p>Flour tortilla wrap with pinto beans, mexican rice, cheese, sourcream, sweet corn, pico de gallo and the filling selection</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="choriqueso.jpg" alt="Choriqueso" style="width:100%">
+      <h4>Choriqueso</h4>
+      <p>Mexican chorizo with cheese and 5 corn tortillas</p>
+    </div>
+  </div>
+  
+    <div class="column meal">
+    <div class="content">
+    <img src="chimichanga.jpg" alt="Chimichanga" style="width:100%">
+      <h4>Chimichanga</h4>
+      <p>Flour tortilla with a mix of sweet peppers onion a filling selection deep fry and cover with cream and coriander</p>
+    </div>
+  </div>
+  
+  <div class="column drinks">
+    <div class="content">
+      <img src="chelada.jpg" alt="chelada" style="width:100%">
+      <h4>Chelada</h4>
+      <p>Lime juice with salt and beer</p>
+    </div>
+  </div>
+  <div class="column drinks">
+    <div class="content">
+    <img src="michelada.jpg" alt="Michelada" style="width:100%">
+      <h4>Michelada</h4>
+      <p>Lime juice, maggie sauce, tabasco sauce, worchester sauce and bear</p>
+    </div>
+  </div>
+  <div class="column drinks">
+    <div class="content">
+    <img src="red lion.jpg" alt="Red Lion" style="width:100%">
+      <h4>Red Lion</h4>
+      <p>Lime juice, maggie sauce, tabasco sauce, worchester sauce and tomato juice and bear</p>
+    </div>
+  </div>
+  
+    <div class="column drinks">
+    <div class="content">
+    <img src="TNT.jpg" alt="TNT" style="width:100%">
+      <h4>TNT</h4>
+      <p>Boost with red wine</p>
+    </div>
+  </div>
+  
+    <div class="column Drinks">
+    <div class="content">
+    <img src="tap water.jpg" alt="Tap water" style="width:100%">
+      <h4>Tap Water</h4>
+      <p>House syrup with beer and red wine</p>
+    </div>
+  </div>
+  
+    <div class="column drinks">
+    <div class="content">
+    <img src="calimocho.jpg" alt="Calimocho" style="width:100%">
+      <h4>Calimocho</h4>
+      <p>Coke with red wine</p>
+    </div>
+  </div>
+  
+    <div class="column Drinks">
+    <div class="content">
+    <img src="polaca.jpg" alt="Polaca" style="width:100%">
+      <h4>Polaca</h4>
+      <p>Red wine, beer and syrup.</p>
+    </div>
+  </div>
+  
+    <div class="column Drinks">
+    <div class="content">
+    <img src="el grito.jpg" alt="El Grito" style="width:100%">
+      <h4>El Grito</h4>
+      <p>Cucumber juice, pineapple juice etc.</p>
+    </div>
+  </div>
+  
+    <div class="column drinks">
+    <div class="content">
+    <img src="coffee.jpg" alt="coffee" style="width:100%">
+      <h4>Mexican Coffee</h4>
+      <p>Mexican coffee with cinamon and piloncillo</p>
+    </div>
+  </div>
+  
+    <div class="column drinks">
+    <div class="content">
+    <img src="waters.jpg" alt="water" style="width:100%">
+      <h4>Natural water</h4>
+      <p>Dairy making Hibiscus, Rice water and tamarind water</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+</div>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
+
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+		
+	</body>

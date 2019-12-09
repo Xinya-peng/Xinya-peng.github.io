@@ -1,0 +1,239 @@
+ body{
+    background-image: url('6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+.logo{
+	height:200px;
+	width:225px;
+	display:block; 
+	margin:auto;
+	}
+.button1{
+  position: absolute;
+  font-size:20px;
+  right: 5%;
+  top: 2%;
+	}
+ul {
+	list-style-type: none;
+	float:right;
+	position: absolute;
+	left: 24%;
+	top: 30%;
+	}
+li {float: left;}
+li a{
+	font-size:20px;
+	font-family: "Tahoma", Times, serif;
+	letter-spacing:1px;
+	display: block;
+	color: #F7EEE0;
+	padding: 14px 16px;
+	margin-top:20px;
+	text-decoration: none;}
+li a:hover{background-color: #A82328;}
+.img1{width:155px;height:155px;}
+.img2{width:105px;height:105px;}
+.img3{width:90px;height:90px;}
+div.line{
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    border-bottom-color:#F7EEE0;
+    }
+h2{
+	font-family: "Segoe UI Black", Times, serif;
+	font-size: 30px;
+    letter-spacing:6px;
+	Text-align: center;
+	color: white;
+	}
+div.one{
+	position: absolute;
+	left: 25%;
+	top: 60%;
+	}
+div.two{
+	position: absolute;
+	left: 45%;
+	top: 64%;
+	}
+div.three{
+	position: absolute;
+	left: 65%;
+	top: 65%;
+	}
+	
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 140%;
+  left: 70%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip{
+color:#FBFCFC ;
+position: absolute;
+left: 32%;
+top:95%;
+Text-align:center;
+Font-size: 35px;
+font-family: "Candara";
+}
+
+.totip .totiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 140%;
+  left: 70%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.totip .totiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.totip:hover .totiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.totip{
+color:#FBFCFC ;
+position: absolute;
+left: 58%;
+top:95%;
+Text-align:center;
+Font-size: 35px;
+font-family: "Candara";
+}
+
+
+
+* {
+  box-sizing: border-box;
+ }
+
+input[type=text], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width:590px;
+	float:left;
+	position: absolute;
+	left: 26%;
+	top:160%;
+	margin-top:15px;
+	border-right: 15px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.row1{
+	float: right;
+	}
+ 
+div.map{ 
+	position: absolute; 
+	left:30%;
+	top:105%;
+	}
+footer{
+	width:100%;
+	height:23px;
+	font-family: "Tahoma", Times, serif;
+	margin-top:500px;
+	background-color:#A82328;
+	font-size:20px;
+	text-align:center;
+	color:#3E3C41;
+}
+
+   
+
+
+

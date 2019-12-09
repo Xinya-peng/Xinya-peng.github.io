@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8">
+	<script src="script1.js"></script>
+        <title>El Grito Restaurant</title>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+        <!--[if lte IE 9]>
+            <script src="http://css3-mediaqueries-    js.googlecode.com/svn/trunk/css3-    mediaqueries.js"></script>
+        <![endif]-->
+		<script>
+			function pFunction()
+			{
+				confirm("Congratulations! Your table has been reserved");
+			}
+		</script>
+        <link rel="stylesheet" href="CSS.css">
+    </head>
+    <body>
+	<img src="logo.png" class="logo" >
+		<div class='bar'>
+			<ul>
+			<li><a href="../index.html">HOME</a></li>
+			<li><a href="../menu/menu.html">MENU</a></li>
+			<li><a href="../GiftCard/GiftCard.html">GIFT CARD</a></li>
+			<li><a href="../Findus/Findus.html">CONECT US</a></li>
+			<li><a href="../gallery/gallery.html">GALLERY</a></li>
+			</ul>
+		</div>
+
+	<div class='title'>
+		<p>Reserve right here!</p><br/>
+	</div>
+	<div class='question'>
+		<label>1.How many people?</label><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" /><label>1</label>
+			<input type="radio" /><label>2</label>
+			<input type="radio" /><label>3</label>
+			<input type="radio" /><label>4</label>
+			<input type="radio" /><label>5</label>
+			<input type="radio" /><label>6</label><br/><br/>
+			<label>2.Date:</label><input type="text" name="fname" value="MM/DD/YYYY" size="35" maxlength="2"/><br/><br/>
+			<label>3.Time:</label><input type="text" name="fname" value="10:00 am" size="35" maxlength="2"/><br/><br/>
+			<label>4.Your Name:</label><input type="text" name="mname" value="e.g.T" size="5" maxlength="1"/><br/><br/>
+			<label>5.Phone:</label><input type="number" name="phone" value="84723832113913" size="45" maxlength="10"/><br/><br/>
+			<label>Message board:</label><br />
+			<textarea rows="5" cols="60"> Please enter your message here </textarea>
+			<br />
+			<input type="reset" />
+			<button type="button" onclick="pFunction()">Reserve!</button>
+	</div>
+	
+	
+	<footer>
+        <p>Copyright &#169; El Grito Restaurant</p>
+    </footer>
+</body>
+</html>

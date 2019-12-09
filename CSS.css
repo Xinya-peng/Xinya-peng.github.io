@@ -1,0 +1,57 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-image: url('6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+* {box-sizing: border-box;}
+li {float: left;
+	padding-left:9.5%;
+	float:left;
+	}
+li a {
+	font-family: "Tahoma", Times;
+	font-size:21px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    }
+li a:hover {background-color: #A82328;}
+.logo{
+	height:200px;
+	width:225px;
+	display:block; 
+	margin:auto;
+	}
+
+div.title{
+	position: absolute;
+	left: 12%;
+	top: 42%;
+	margin: auto;
+	font-size:50px;
+	color: #E05915;
+	font-family: "Broadway", Times, serif;
+	}
+div.question{
+	position: absolute;
+	left: 22%;
+	top: 62%;
+	margin: auto;
+	font-size:30px;
+	color: white;
+	font-family: "Broadway", Times, serif;
+	}
+footer{
+	font-family: "Tahoma", Times, serif;
+    width:100%;
+    height:28px;
+    margin-top:850px;
+    background-color:#CF4D12;
+    font-size:11px;
+    text-align:center;
+    color:#F7EEE0;
+}
+ 
